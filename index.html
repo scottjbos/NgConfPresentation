@@ -158,7 +158,7 @@ export class AppComponent implements OnInit {
 							<li> ES6/ES 2015 contains: Maps/sets, classes, block scope, destructuring, arrow functions, modules, default/rest parameters</li>
 							<li>Typescript is transpiled into very clean and efficient javascript</li>
 						</ul>
-						<img data-src="http://scottjbos.github.io/NgConfPresentation/img/typescript.jpg">
+						<img class="typescript-image" data-src="http://scottjbos.github.io/NgConfPresentation/img/typescript.jpg">
 					</section>
 					 <section>
 						<h2>Tidbits</h2>
@@ -180,19 +180,11 @@ export class AppComponent implements OnInit {
 							 </ul></li>
 						 </ul>
 					</section>
-
-					<section>
-						<h2>Resources</h2>
-						<ul>
-							<li><a href="https://docs.google.com/presentation/d/1W2VM-sv-pkEY_G8HSXKhkQif8aScBtLygam6GKNroNE/edit#slide=id.p">Building Single Page Applications with Angular 2 - John Papa, Dan Wahlin (slides)</a></li>
-							<li><a href="https://www.youtube.com/playlist?list=PLOETEcp3DkCq788xapkP_OU-78jhTf68j">ng-conf 2016 YouTube Channel</a></li>
-
-						</ul>
-					</section>
 				</section>
 				
 				<section>
-					Angular CLI
+					<h2>Angular CLI</h2>
+					<img src="http://scottjbos.github.io/NgConfPresentation/img/clingon.JPG"/>
 				</section>
 				
 				<section>
@@ -212,11 +204,13 @@ export class AppComponent implements OnInit {
 				</section>
 
 				<section>
-					Tools to write Angular 2
-						Visual Studio Code
-						Web Storm
-						Intellij
-						Visual Studio
+					<div>Tools to write Angular 2</div>
+						<ul>
+							<li>Visual Studio Code</li>
+							<li>Web Storm</li>
+							<li>Intellij</li>
+							<li>Visual Studio</li>>
+						</ul>
 				</section>
 				
 				<section>
@@ -225,6 +219,15 @@ export class AppComponent implements OnInit {
 						<div><a href="https://angular.io/docs/ts/latest/tutorial/"> Tour of Heroes</a></div>
 						<img src="http://scottjbos.github.io/NgConfPresentation/img/heroes.jpg"/>
 					</div>
+				</section>
+
+				<section>
+					<h2>Resources</h2>
+					<ul>
+						<li><a href="https://www.youtube.com/playlist?list=PLOETEcp3DkCq788xapkP_OU-78jhTf68j">ng-conf 2016 YouTube Channel</a></li>
+						<li><a href="https://docs.google.com/presentation/d/1W2VM-sv-pkEY_G8HSXKhkQif8aScBtLygam6GKNroNE/edit#slide=id.p">Building Single Page Applications with Angular 2 - John Papa, Dan Wahlin (slides)</a></li>
+						<li><a href="https://docs.google.com/presentation/d/1ctVafwlb8tZFYe0q_RZoLse9hU8mZzW9HhZoUBuHhAE/edit#slide=id.p">TypeScript: Angular 2's Secret Weapon - Dan Wahlin (slides)</a></li>
+					</ul>
 				</section>
 
 			</div>
@@ -239,6 +242,12 @@ export class AppComponent implements OnInit {
 				history: true,
 				width: 1024,
 				height: 700,
+
+				// Parallax background image
+				parallaxBackgroundImage: 'http://scottjbos.github.io/NgConfPresentation/img/ngconfstormtrooper.JPG', // e.g. "https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg"
+
+				// Parallax background size
+				parallaxBackgroundSize: '2448px 2448px', // CSS syntax, e.g. "2100px 900px" - currently only pixels are supported (don't use % or auto)
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
