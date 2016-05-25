@@ -1362,3 +1362,7 @@ html:-moz-full-screen-ancestor {
   background:none;
   height: 100px;
 }
+
+.trip-photo {
+  height: 650px;
+}
