@@ -1344,3 +1344,7 @@ html:-moz-full-screen-ancestor {
 .side-by-side-slides {
   width: 480px;
 }
+
+.nativescript, .nativescript-angular {
+  height: 150px;
+}
