@@ -1345,7 +1345,7 @@ html:-moz-full-screen-ancestor {
   width: 480px;
 }
 
-#nativescript, #nativescript-angular {
+#nativescript, #nativescript-angular, #angular {
   height: 150px;
   background:none;
   border:none;
