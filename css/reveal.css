@@ -1357,7 +1357,7 @@ html:-moz-full-screen-ancestor {
   border:none;
 }
 
-#vsc-logo {
+#vsc-logo, #webstorm-logo {
   border:none;
   background:none;
   height: 100px;
