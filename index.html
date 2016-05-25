@@ -42,17 +42,17 @@
 					<section>
 						<h2>Keys of Angular 2</h2>
 						<ul>
-							<li class="fragment">Performance</li>
-							<li class="fragment">Modules, Components, & Templates</li>
-							<li class="fragment">Data Binding & Structural Directives</li>
-							<li class="fragment">Services & Dependency Injection</li>
+							<li class="fragment"><a href="#/performance">Performance</a></li>
+							<li class="fragment"><a href="#/modules">Modules,</a> <a href="#/components">Components, & Templates</a></li>
+							<li class="fragment"><a href="#/data-binding">Data Binding & Structural Directives</a></li>
+							<li class="fragment"><a href="#/services">Services & Dependency Injection</a></li>
 
-							<li class="fragment">Languages (TypeScript, ES6, ES5)</li>
-							<li class="fragment">Tidbits</li>
+							<li class="fragment"><a href="#/typescript">Languages (TypeScript, ES6, ES5)</a></li>
+							<li class="fragment"><a href="tidbits">Tidbits</a></li>
 						</ul>
 
 					</section>
-					<section>
+					<section id="performance">
 						<h2>Performance</h2>
 						<ul>
 							<li>Angular 2 is lean and fast</li>
@@ -67,7 +67,7 @@
 						<p>A big goal the Angular team had was to achieve automatic lazy loading. This ensures our applications only load what is necessary for the current page. Lazy loading is also included when routing our applications.</p>
 					</section>
 
-					<section>
+					<section id="modules">
 						<h2>Modules</h2>
 						<ul>
 							<li>Import classes using module loading</li>
@@ -87,7 +87,7 @@ import { HeroService } from './hero.service';
   template: ...
 							</code></pre>
 					</section>
-					<section>
+					<section id="components">
 						<h2>Components & Templates - Simplicity</h2>
 						<table>
 							<thead>
@@ -125,7 +125,7 @@ export class QuestSummaryComponent { }
 
 					</section>
 
-					<section>
+					<section id="data-binding">
 						<h2>Data Binding & Structural Directives</h2>
 						<ul>
 							<li>() for input, [] for output</li>
@@ -143,7 +143,7 @@ export class QuestSummaryComponent { }
 &lt;/div&gt;
 						</code></pre>
 					</section>
-					<section>
+					<section id="services">
 						<h2>Services & Dependency Injection</h2>
 						<ul>
 							<li>Services are just classes</li>
@@ -185,16 +185,38 @@ export class AppComponent implements OnInit {
 						</code></pre>
 					</section>
 
-					<section>
+					<section id="typescript">
 						<h2>Languages (TypeScript, ES6, ES5)</h2>
 						<ul>
 							<li><a href="http://www.typescriptlang.org/play/">TypeScript</a> is a superset of javascript</li>
-							<li> ES6/ES 2015 contains: Maps/sets, classes, block scope, destructuring, arrow functions, modules, default/rest parameters</li>
+							<li>ES6/ES 2015 contains: Maps/sets, classes, block scope, destructuring, arrow functions, modules, default/rest parameters</li>
 							<li>TypeScript is transpiled into very clean and efficient javascript</li>
 						</ul>
 						<img class="typescript-image" data-src="http://scottjbos.github.io/NgConfPresentation/img/typescript.jpg">
 					</section>
-					 <section>
+					<section>
+						<h2>TypeScript has Types!</h2>
+						<pre><code>
+name: string;
+age: number;
+isEnabled: boolean;
+pets: string[];
+accessories: string | string[];
+customer: ICustomer;
+						</code></pre>
+						<img class="" data-src="http://scottjbos.github.io/NgConfPresentation/img/typescript-types.jpg">
+					</section>
+					<section>
+						<h2>More About TYpeScript</h2>
+						<ul>
+							<li></li>
+							<li>Tooling support - code help/intellisense, refactoring, peek/to go, find references</li>
+							<li>TypeScript has Interfaces and Generics</li>
+							<li>Dan Wahlin has a great talk on <a href="https://www.youtube.com/watch?v=e3djIqAGqZo">TypeScript: Angular 2's Secret Weapon</a> with <a href="https://docs.google.com/presentation/d/1ctVafwlb8tZFYe0q_RZoLse9hU8mZzW9HhZoUBuHhAE/edit#slide=id.p">slides</a></li>
+						</ul>
+
+					</section>
+					 <section id="tidbits">
 						<h2>Tidbits</h2>
 						 <pre><code>
 @Component({
