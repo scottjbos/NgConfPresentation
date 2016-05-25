@@ -1340,3 +1340,7 @@ html:-moz-full-screen-ancestor {
 .clingon-image {
   height: 500px;
 }
+
+.side-by-side-slides {
+  width: 480px;
+}
