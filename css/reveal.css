@@ -1348,3 +1348,7 @@ html:-moz-full-screen-ancestor {
 .nativescript, .nativescript-angular {
   height: 150px;
 }
+
+.nativescript-tutorial {
+  height: 375px;
+}
