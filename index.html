@@ -197,13 +197,22 @@ export class AppComponent implements OnInit {
 					<section>
 						<h2>TypeScript has Types!</h2>
 						<img class="types" data-src="http://scottjbos.github.io/NgConfPresentation/img/typescript-types.jpg">
-						<div>Core types (optional but very helpful): string, number, boolean, Array, any Custom types
-						</div>
+					</section>
+					<section>
+						<h2>TypeScript Core Types</br>(optional but very helpful)</h2>
+						<div>string, number, boolean, Array, any Custom types</div>
+						<pre><code>
+name: string;
+age: number;
+isEnabled: boolean;
+pets: string[];
+accessories: string | string[];
+customer: ICustomer;
+						</code></pre>
 					</section>
 					<section>
 						<h2>More About TypeScript</h2>
 						<ul>
-							<li></li>
 							<li>Tooling support - code help/intellisense, refactoring, peek/to go, find references</li>
 							<li>TypeScript has Interfaces and Generics</li>
 							<li>Dan Wahlin has a great talk on <a href="https://www.youtube.com/watch?v=e3djIqAGqZo">TypeScript: Angular 2's Secret Weapon</a> with <a href="https://docs.google.com/presentation/d/1ctVafwlb8tZFYe0q_RZoLse9hU8mZzW9HhZoUBuHhAE/edit#slide=id.p">slides</a></li>
