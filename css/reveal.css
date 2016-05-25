@@ -1345,10 +1345,20 @@ html:-moz-full-screen-ancestor {
   width: 480px;
 }
 
-.nativescript, .nativescript-angular {
+#nativescript, #nativescript-angular {
   height: 150px;
+  background:none;
+  border:none;
 }
 
-.nativescript-tutorial {
+#nativescript-tutorial {
   height: 375px;
+  background:none;
+  border:none;
+}
+
+#vsc-logo {
+  border:none;
+  background:none;
+  height: 100px;
 }
