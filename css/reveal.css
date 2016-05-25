@@ -1366,3 +1366,6 @@ html:-moz-full-screen-ancestor {
 .trip-photo {
   height: 650px;
 }
+.types {
+  height: 400px;
+}
