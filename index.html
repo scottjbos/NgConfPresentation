@@ -437,6 +437,34 @@ ng deploy
 				<section>
 					<img src="http://scottjbos.github.io/NgConfPresentation/img/where_there_is_a_will.jpg"/>	
 				</section>
+				
+				<section>
+					<h2>Angular Upgrade</h2>
+					<p class="fragment">What are my options?</p>
+					<ul>
+						<li class="fragment">Smaller apps can upgrade to straight to Angular 2</li>
+						<li class="fragment">Larger Apps will need a iterative approach</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Preparing for the upgrade</h2>
+					<p>There are some things we can today to make upgrading our application easier:</p>
+					<ul>
+						<li class="fragment">Upgrade to Angular 1.5</li>
+						<li class="fragment">Layer application by <b>feature/component</b>, use multiple modules</li>
+						<li class="fragment">Use <code>.service()</code> instead of <code>.factory()</code></li>
+						<li class="fragment">Write <b>new components</b> in ES2015 or TypeScript</li> 
+					</ul>
+				</section>
+				<section>
+					<h2>What if I want to start using Angular 2 right now in my Angular 1 App?</h2>
+					<div class="fragment">You can enjoy the features of Angular 2 has to offer by using upgrade module in Angular 2.  It was designed to make the upgrade process seamless.</div>
+					<ul class="fragment">
+						<li><a href="https://angular.io/docs/ts/latest/guide/upgrade.html">Angular Upgrade Documentation/Guide</a></li>
+						<li>Migrating Angular 1 Apps to Angular 2 by Pascal Precht & Christoph Burgdorf <a href="http://thoughtram.io/angular-upgrade-slides/#/">Slides</a> and <a href="https://github.com/thoughtram/angular-upgrade-app">Github Sample Upgrade Code</a></li> 
+						<li><a href="http://blog.thoughtram.io/angular/2015/10/24/upgrading-apps-to-angular-2-using-ngupgrade.html">ng-upgrade blog</a> by ThoughtRam</li>
+					</ul>
+				</section>
 								
 				<section>
 					<img class="trip-photo" data-src="http://scottjbos.github.io/NgConfPresentation/img/trip-pics/angular2-team.jpg">
