@@ -354,7 +354,8 @@ ng deploy
 					<section>
 						<h2><a href="https://github.com/slightlyoff/ServiceWorker">Service Workers</a></h2>
 						<p>Service Worker is a relatively new addition to the Web Platform, and is a critical component to building true Progressive Web Apps. Not only does Service Worker make it possible to make apps load without an internet connection, it also makes it possible to push notifications and updates to a user's device while the app isn't even running</p>
-					</section>										
+					</section>
+
 					<section>
 						<h2>Angular Mobile Resources</h2>
 						<ul>
@@ -363,7 +364,9 @@ ng deploy
 							<li><a href=https://github.com/angular/mobile-toolkit">Angular Mobile Toolkit Documentation/Guides</a></li>
 							<li><a href="http://developer.telerik.com/featured/are-progressive-web-apps-future/">Are progressive Web Apps future?</a></li>
 						<ul>
-					</section>					
+					</section>
+
+
 				</section>
 				<section>
 					<section>
@@ -420,8 +423,6 @@ ng deploy
 					</section>
 				</section>
 				
-
-
 				<section>
 					<section>
 						<h2>But what us Angular 1.x Developers!?!</h2>
@@ -431,25 +432,41 @@ ng deploy
 					<section>
 						<img src="http://scottjbos.github.io/NgConfPresentation/img/where_there_is_a_will.jpg"/>
 					</section>
+					<section>
+						<h2>Angular Upgrade</h2>
+						<p class="fragment">What are my options?</p>
+						<ul>
+							<li class="fragment">Smaller apps can upgrade to straight to Angular 2</li>
+							<li class="fragment">Larger Apps will need a iterative approach</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Preparing for the upgrade</h2>
+						<p>There are some things we can today to make upgrading our application easier:</p>
+						<ul>
+							<li class="fragment">Upgrade to Angular 1.5</li>
+							<li class="fragment">Layer application by <b>feature/component</b>, use multiple modules</li>
+							<li class="fragment">Use <code>.service()</code> instead of <code>.factory()</code></li>
+							<li class="fragment">Write <b>new components</b> in ES2015 or TypeScript</li>
+						</ul>
+					</section>
 				</section>
 
 
+				<section>
+					<h2>What if I want to start using Angular 2 right now in my Angular 1 App?</h2>
+					<div class="fragment">You can enjoy the features of Angular 2 has to offer by using upgrade module in Angular 2.  It was designed to make the upgrade process seamless.</div>
+					<ul class="fragment">
+						<li><a href="https://angular.io/docs/ts/latest/guide/upgrade.html">Angular Upgrade Documentation/Guide</a></li>
+						<li>Migrating Angular 1 Apps to Angular 2 by Pascal Precht & Christoph Burgdorf <a href="http://thoughtram.io/angular-upgrade-slides/#/">Slides</a> and <a href="https://github.com/thoughtram/angular-upgrade-app">Github Sample Upgrade Code</a></li>
+						<li><a href="http://blog.thoughtram.io/angular/2015/10/24/upgrading-apps-to-angular-2-using-ngupgrade.html">ng-upgrade blog</a> by ThoughtRam</li>
+					</ul>
+				</section>
 
 				<section>
 					<img class="trip-photo" data-src="http://scottjbos.github.io/NgConfPresentation/img/trip-pics/angular2-team.jpg">
 				</section>
-
-				<section>
-					<h2>Angular 2 looks cool, where should I start?</h2>
-					<ul>
-						<li class="fragment"><a href="https://youtu.be/WAPQF_GA7Qg">An Angular 2 Force Awakens</a> by <a href="https://twitter.com/John_Papa">John Papa</a></li>
-						<li class="fragment">
-							<div><a href="https://angular.io/docs/ts/latest/tutorial/">Tour of Heroes Tutorial</a></div>
-							<img src="http://scottjbos.github.io/NgConfPresentation/img/heroes.jpg"/>
-						</li>
-					</ul>
-				</section>
-
+				
 				<section>
 					<h2>Resources</h2>
 					<ul>
